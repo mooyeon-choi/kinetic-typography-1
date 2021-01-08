@@ -28,7 +28,7 @@ class App {
       resolution: window.devicePixelRatio > 1 ? 2 : 1,
       autoDensity: true,
       powerPreference: "high-performance",
-      backgroundColor: 0x2b27f5,
+      backgroundColor: 0x000000,
     });
     document.body.appendChild(this.renderer.view);
 
@@ -59,8 +59,8 @@ class App {
 
     const uniformsData = {
       threshold: 0.5,
-      mr: 68.0 / 255.0,
-      mg: 224.0 / 255.0,
+      mr: 255.0 / 255.0,
+      mg: 255.0 / 255.0,
       mb: 255.0 / 255.0,
     };
 
